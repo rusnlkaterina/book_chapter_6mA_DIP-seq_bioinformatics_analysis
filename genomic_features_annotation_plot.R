@@ -13,7 +13,7 @@ library(GenomicFeatures)
 # Broad peaks annotation
 
 # Load data
-samplefiles <- list.files("/Users/katerinaoleynikova/Downloads/seminar/genomic_features_files",
+samplefiles <- list.files("/Users/katerinaoleynikova/Downloads/ecoli_6mA",
                           pattern= ".bed", full.names=T)
 samplefiles <- as.list(samplefiles)
 names(samplefiles) <- c("m6A/6mA DNA") 
