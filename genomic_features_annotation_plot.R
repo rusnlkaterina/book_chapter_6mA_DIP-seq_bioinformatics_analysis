@@ -16,7 +16,7 @@ library(GenomicFeatures)
 samplefiles <- list.files("/Users/katerinaoleynikova/Downloads/ecoli_6mA",
                           pattern= ".bed", full.names=T)
 samplefiles <- as.list(samplefiles)
-names(samplefiles) <- c("m6A/6mA DNA") 
+names(samplefiles) <- c("DNA 6mA") 
 
 # Load annotation file
 # upload annotation file for e.coli k12 from:
